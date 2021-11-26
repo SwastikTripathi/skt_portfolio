@@ -1,0 +1,208 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background: #ffffff url("") repeat center;
+  background-size: cover;
+}
+
+header {
+  height: 100vh;
+  background: #ffffff url("./images/header_img.webp") center no-repeat;
+  background-size: cover;
+}
+
+a, a:hover, a:active {
+  color: white;
+  text-decoration: none;
+}
+
+#welcomeMsg {
+  padding: 2rem;
+  background: rgba( 255, 255, 255, 0.05 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px ); 
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  transition: all 0.2s ease-in-out;
+}
+@media only screen and (min-width: 768px) {
+  #welcomeMsg {
+    padding: 5rem;
+  }
+  #welcomeMsg:hover {
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0px 0px 25px 15px rgba(10, 14, 58, 0.37);
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transform: scale(1.1);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #mainBody {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+#mainNavbar {
+  background: rgba( 255, 255, 255, 0.25 ) !important;
+  box-shadow: 0 8px 20px 0 rgba( 31, 38, 135, 0.37 ) !important;
+  backdrop-filter: blur( 6.5px ) !important;
+  -webkit-backdrop-filter: blur( 6.5px ) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+}
+
+section {
+  margin: 5rem auto;
+}
+
+#about {
+  height: 100vh;
+  margin-bottom: 25vh;
+}
+#about p {
+  background: rgba( 255, 255, 255, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 8px );
+  -webkit-backdrop-filter: blur( 8px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  position: relative;
+  top: -3rem;
+}
+@media only screen and (min-width: 767px) {
+  #about {
+    display: flex;
+    align-items: center;
+    margin-bottom: auto;
+  }
+  #about > div {
+    position: relative;
+  }
+  #about > div > img {
+    width: 50%;
+  }
+  #about > div > p {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    right: 0;
+    width: 75%;
+  }
+}
+
+/* **doesn't work from here 
+  #summary {
+  background: #ffffff url("./images/hero_img.jpg") center no-repeat fixed;
+} */
+
+#skills div.position-absolute {
+  background: #ffffff url('./images/hover-bg.png') center no-repeat;
+  background-size: cover;
+  border-radius: 10%;
+  width: 60%;
+  height: 60%;
+  bottom: -250px;
+  right: 0;
+  transition: all 0.4s ease-in-out;
+}
+#skills div.position-relative img {
+  transition: all 0.2s ease-in-out;
+}
+#skills div.position-relative:hover img {
+  backdrop-filter: blur( 4.5px );
+  filter: blur(4px);
+}
+#skills div.position-relative:hover div.position-absolute {
+  bottom: 0;
+  right: 0;
+}
+
+#activitiesCarousel {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+/* **can't override bootstrap protperty 
+  #activitiesCarousel .carousel-caption {
+  background: rgba( 255, 255, 255, 0.15 ) !important;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) !important;
+  backdrop-filter: blur( 4.5px ) !important;
+  -webkit-backdrop-filter: blur( 4.5px ) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+} */
+
+#endeavors .article {
+  background: rgba( 255, 255, 255, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4.5px );
+  -webkit-backdrop-filter: blur( 4.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+@media only screen and (min-width: 768px) {
+  #endeavors .article {
+    height: 50vh;
+  }
+}
+
+#contact {
+  height: 40vh;
+}
+#contact img {
+  height: 30px;
+}
+#contact > div {
+  width: 75%;
+}
+@media only screen and (min-width: 768px) {
+  #contact > div {
+    width: 25%;
+  }
+  #contact a {
+    transition: all 0.2s ease-in-out;
+  }
+  #contact a:hover {
+    transform: scale(2);
+  }
+}
+
+footer img {
+  height: 50px;
+}
+#ext_credits {
+  font-size: 50%;
+}
+#siteCredit div {
+  background: rgba( 255, 255, 255, 0.05 );
+  box-shadow: 0px 0px 25px 15px rgba(10, 14, 58, 0.37) !important;
+  backdrop-filter: blur( 6.5px ) !important;
+  -webkit-backdrop-filter: blur( 6.5px ) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+  transition: all 0.3s ease-in-out;
+}
+#siteCredit div:hover {
+  background: rgba( 255, 255, 255, 0.05 );
+  box-shadow: 0 4px 25px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  transform: scale(0.8);
+}
+#siteCredit, #siteCredit:hover, #siteCredit:active {
+  color: black;
+  text-decoration: none;
+}
+@media only screen and (max-width: 767px) {
+  #siteCredit {
+    display: none;
+  }
+}
