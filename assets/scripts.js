@@ -30,7 +30,6 @@ $(document).ready(function(){
         $('#after-load').removeClass('d-none');
         $("#pre-loader-bg").remove();
     }
-    hidePreloader();
     
 });
   
