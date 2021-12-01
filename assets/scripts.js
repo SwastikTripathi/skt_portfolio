@@ -27,8 +27,8 @@ $(document).ready(function(){
     function hidePreloader() {
         var preloader = $('#pre-loader-bg');
         preloader.fadeOut(preloaderFadeOutTime);
-        $('#after-load').removeClass('d-none');
-        $("#pre-loader-bg").remove();
+        $('#after-load').css({"display": "block"});
+        $('#pre-loader-bg').css({"display": "none", "height": "0"});
     }
     
 });
