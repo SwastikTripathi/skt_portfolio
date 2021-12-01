@@ -17,16 +17,13 @@ $(document).ready(function(){
         }
     });
     
-    $(document).ready(function() {
-        //Preloader
-        preloaderFadeOutTime = 20000;
-        function hidePreloader() {
-            var preloader = $('#pre-loader');
-            preloader.fadeOut(preloaderFadeOutTime);
-        }
-        hidePreloader();
-    });
-
-
+    //Preloader
+    preloaderFadeOutTime = 20000;
+    function hidePreloader() {
+        var preloader = $('#pre-loader');
+        preloader.fadeOut(preloaderFadeOutTime);
+    }
+    hidePreloader();
+    
 });
   
