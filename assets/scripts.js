@@ -22,6 +22,8 @@ $(document).ready(function(){
         }
     });
     
+    $('.spinner-border').addClass('d-none');
+    
 //     setTimeout(function(){
 //         $('#pre-loader-bg').addClass('d-none');
 //         $('#pre-loader-bg').css('height', '0');
