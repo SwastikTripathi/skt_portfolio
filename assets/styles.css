@@ -27,9 +27,14 @@
 * {
 	 box-sizing: border-box;
 }
-pre-loader-body {
-	 background: #f9f9f9;
-	 padding-bottom: 100px;
+pre-loader-bg {
+	background: #ffffff;
+	height: 100%;
+	width: 100%;
+	d-flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 100;
 }
 #pre-loader {
    position: relative;
