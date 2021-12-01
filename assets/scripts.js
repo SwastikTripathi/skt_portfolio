@@ -24,8 +24,8 @@ $(document).ready(function(){
     
     setTimeout(function(){
         $('#pre-loader-bg').addClass('d-none');
-        $('#pre-loader-bg').addClass('h-0');
-        $('#after-load').css('d-block');
+        $('#pre-loader-bg').css('height', '0');
+        $('#after-load').css('display', 'block');
     }, 3000);
     
     //Preloader
