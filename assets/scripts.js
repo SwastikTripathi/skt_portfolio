@@ -25,7 +25,7 @@ $(document).ready(function(){
     //Preloader
     preloaderFadeOutTime = 5000;
     function hidePreloader() {
-        var preloader = $('#pre-loader');
+        var preloader = $('#pre-loader-bg');
         preloader.fadeOut(preloaderFadeOutTime);
         $('#after-load').removeClass('d-none');
         $("#pre-loader-bg").remove();
