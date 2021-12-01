@@ -35,7 +35,7 @@
       
     </style>
   </head>
-  <body>
+  <body onload="loadedYes()">
     
 <!--     <div id="pre-loader-bg" class="bg-light justify-content-center align-items-center" style="display:flex">
       <div id="pre-loader">
@@ -60,11 +60,12 @@
         </div>
       </div>
     </div> -->
-    <div class="spinner-border text-primary" role="status">
-  <span class="sr-only">Loading...</span>
-</div>
+    
     
     <div id="after-load" class="container-fluid p-0 m-0">
+      <div class="spinner-border text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
       <header class="d-flex justify-content-center align-items-center">
         <a href="#mainBody">
           <div id="welcomeMsg" class="text-center">
