@@ -1,5 +1,10 @@
 $(document).ready(function(){
 
+    var typed = new Typed('#typed-welcome',  {
+        strings: ["Sentence 1", "Amazing", "wow"],
+        typeSpeed = 30;
+    });
+    
     $(".owl-carousel").owlCarousel({
         loop: true,
         dots: true,
