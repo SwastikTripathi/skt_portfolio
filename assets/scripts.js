@@ -24,14 +24,14 @@ $(document).ready(function(){
     
     
 //     Preloader
-    preloaderFadeOutTime = 5000;
-    function hidePreloader() {
-        var preloader = $('#pre-loader-bg');
-        preloader.fadeOut(preloaderFadeOutTime);
-        $('#after-load').css({"display": "block"});
-        $('#pre-loader-bg').css({"display": "none", "height": "0"});
-    }
-    hidePreloader();
+//     preloaderFadeOutTime = 5000;
+//     function hidePreloader() {
+//         var preloader = $('#pre-loader-bg');
+//         preloader.fadeOut(preloaderFadeOutTime);
+//         $('#after-load').css({"display": "block"});
+//         $('#pre-loader-bg').css({"display": "none", "height": "0"});
+//     }
+//     hidePreloader();
     
 });
   
