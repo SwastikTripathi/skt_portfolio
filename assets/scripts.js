@@ -22,7 +22,7 @@ $(document).ready(function(){
     function hidePreloader() {
         var preloader = $('#pre-loader');
         preloader.fadeOut(preloaderFadeOutTime);
-        $('.after-load').removeClass('d-none');
+        $('#after-load').removeClass('d-none');
     }
     hidePreloader();
     
