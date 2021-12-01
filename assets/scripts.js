@@ -23,7 +23,7 @@ $(document).ready(function(){
     });
     
     //Preloader
-    preloaderFadeOutTime = 20000;
+    preloaderFadeOutTime = 5000;
     function hidePreloader() {
         var preloader = $('#pre-loader');
         preloader.fadeOut(preloaderFadeOutTime);
