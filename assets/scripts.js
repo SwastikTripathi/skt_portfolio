@@ -30,6 +30,7 @@ $(document).ready(function(){
         $('#after-load').css({"display": "block"});
         $('#pre-loader-bg').css({"display": "none", "height": "0"});
     }
+    hidePreloader();
     
 });
   
