@@ -19,11 +19,10 @@ $(document).ready(function(){
     
     $(document).ready(function() {
         //Preloader
-        preloaderFadeOutTime = 2000;
+        preloaderFadeOutTime = 20000;
         function hidePreloader() {
             var preloader = $('#pre-loader');
             preloader.fadeOut(preloaderFadeOutTime);
-            $('body').removeClass('pre-loader');
         }
         hidePreloader();
     });
