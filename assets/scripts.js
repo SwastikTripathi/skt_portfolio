@@ -23,6 +23,7 @@ $(document).ready(function(){
         function hidePreloader() {
             var preloader = $('#pre-loader');
             preloader.fadeOut(preloaderFadeOutTime);
+            $('body').removeClass('pre-loader');
         }
         hidePreloader();
     });
