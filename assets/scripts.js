@@ -22,15 +22,21 @@ $(document).ready(function(){
         }
     });
     
+    setTimeout(function(){
+        $('#pre-loader-bg').addClass('d-none');
+        $('#pre-loader-bg').addClass('h-0');
+        $('#after-load').css('d-block');
+    }, 3000);
+    
     //Preloader
-    preloaderFadeOutTime = 5000;
-    function hidePreloader() {
-        var preloader = $('#pre-loader-bg');
-        preloader.fadeOut(preloaderFadeOutTime);
-        $('#after-load').css({"display": "block"});
-        $('#pre-loader-bg').css({"display": "none", "height": "0"});
-    }
-    hidePreloader();
+//     preloaderFadeOutTime = 5000;
+//     function hidePreloader() {
+//         var preloader = $('#pre-loader-bg');
+//         preloader.fadeOut(preloaderFadeOutTime);
+//         $('#after-load').css({"display": "block"});
+//         $('#pre-loader-bg').css({"display": "none", "height": "0"});
+//     }
+//     hidePreloader();
     
 });
   
