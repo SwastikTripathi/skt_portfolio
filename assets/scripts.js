@@ -19,7 +19,7 @@ $(document).ready(function(){
     
     $(document).ready(function() {
         //Preloader
-        preloaderFadeOutTime = 500;
+        preloaderFadeOutTime = 2000;
         function hidePreloader() {
             var preloader = $('#pre-loader');
             preloader.fadeOut(preloaderFadeOutTime);
