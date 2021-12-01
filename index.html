@@ -302,6 +302,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js" integrity="sha512-zKaK6G2LZC5YZTX0vKmD7xOwd1zrEEMal4zlTf5Ved/A1RrnW+qt8pWDfo7oz+xeChECS/P9dv6EDwwPwelFfQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="assets/scripts.js"></script>
+    <script src="assets/scripts.js">
+     preloaderFadeOutTime = 5000;
+    function hidePreloader() {
+        var preloader = $('#pre-loader-bg');
+        preloader.fadeOut(preloaderFadeOutTime);
+        $('#after-load').css({"display": "block"});
+        $('#pre-loader-bg').css({"display": "none", "height": "0"});
+    }
+    hidePreloader();</script>
   </body>
 </html>
