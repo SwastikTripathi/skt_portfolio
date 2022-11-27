@@ -163,7 +163,7 @@ nav {
     trafnsform:translate(0,0);
   }
    20%{
-    border-color:#fff;
+    border-color:#292b2c;
      transform:translate(15px,15px);
   }
    20.1%,100%{
@@ -171,6 +171,11 @@ nav {
   }
 }
 
+@import url('https://fonts.cdnfonts.com/css/olivia');
 #reviews {
     height: 100vh;
+    /* font-family: 'leisha', sans-serif; */
+}
+#reviews>h2 {
+    font-family: 'Olivia', sans-serif;
 }
